@@ -17,6 +17,7 @@ function switchControl(char) {
     switch (char) {
         case "w":
             var tom1 = new Audio("sounds/tom-1.mp3");
+            tom1.preload.play();
             tom1.play();
             break;
 
